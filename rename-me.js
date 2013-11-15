@@ -1,41 +1,4 @@
-/*var numBros = 4;
-var nameProm = prompt("What should one of the brothers names be?", "john")
-var nameBros = ["chip","steve","longtail", nameProm];
 
-console.log("The Monkey brothers " +
-				nameBros + 
-				" all had to sit down for dinner time.");
-				
-	
-for (var i = 0; i < nameBros.length; i++) {
-	bansEat[i] = nameBros[i] + " bannanas eaten"
-	console.log("Monkey Brother" + i + " has" + bansEat[i]);
-};
- 
-console.log("Bananas eaten " + bansEat);
-
-
-
-var numBros = 4;
-
-
-var nameProm = prompt("What should one of the brothers names be?", "john")
-var nameBros = ["chip","steve","longtail", nameProm];
-
-console.log("The Monkey brothers " +
-				nameBros + 
-				" all had to sit down for dinner time.");
-				
-broCount = nameBros.length;
-
-bansEat = new Array(broCount);
-	
-for (var i = 0; i < nameBros.length; i++) {
-		console.log("Monkey Brother" + i + " has" + nameBros[i]);
-};
- 
-console.log("Bananas eaten " + bansEat);
-*/
 var numEat = 2;
 var nameProm = prompt("What should one of the brothers names be?", "john")
 var nameBros = ["chip","steve","longtail", nameProm];
@@ -60,7 +23,8 @@ var results = function (have,dessert){
 };	
 var oneDone = nameBros.pop()
 var keepEat = function (oneDone){
-	
+	var oneDone = nameBros.pop()
+		while()
 }
 
 
